@@ -1,0 +1,251 @@
+@charset "utf-8";
+header {
+    background-color: #EDB500;
+    width: auto;
+    color:black;
+    height: 100%;
+}
+body{
+	background-color: black;
+	color:cornsilk;
+}
+nav ul {
+    height: 90px;
+}
+nav ul li {
+    height: 80px;  
+	display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    padding-top: 10px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+	align-content: space-around;
+}
+footer {
+    background-color: #EDB500;
+    color: black;
+    height: 90px;
+    text-align: left;
+    padding-left: 25px;
+	padding-bottom: 5px;
+}
+main  {
+    background-color: black;
+    height: auto;
+}
+main section {
+    width: 600px;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: black;
+    padding: 10px;
+}
+h1{
+	font-size: 52px;
+    text-align: left;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-left: 10%;
+}
+h2{
+	font-size: 25px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+@media screen and (max-width:1000px) and (min-width:501px){
+	 nav ul li{
+    height: 10px;  
+    padding-top: 10px;
+    font-size: 22px;
+    padding-bottom: 10px;
+	align-content:space-between;	
+}
+}
+@media screen and (max-width:500px) {
+   nav ul li{
+    height: 20px;  
+    padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 10px;
+	align-content:space-between;	
+}
+	#inicio{
+    width: 200px;
+    height: 400px;
+}
+.contenedor-flexible{
+   flex-direction: column;
+}
+.contenedor-flexible-1{
+   flex-direction: column;
+}
+.contenedor-flexible-2{
+   flex-direction: column;
+}
+.contenedor-flexible-3{ 
+   flex-direction: column;
+}
+}
+@media screen and (max-width:375px) {
+   nav ul li{
+    height: 3px;  
+    padding-top: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+	align-content:space-between;	
+}
+}
+.parrafo{
+   font-size: 30px; 
+   margin-right: 50px;
+}
+.contenedor-flexible{
+   display: flex;
+   width: 200%;
+   height: auto;
+   padding-left: 2%;
+   flex-wrap:nowrap;
+	align-content: flex-start;
+}
+.contenedor-flexible>div{
+  width: 500px;
+  margin: 80px;
+  text-align: left;
+}
+.contenedor-flexible-1{
+   display: flex;
+   width: 100%;
+   height: auto;
+   padding-left: 10%;
+   text-align: center;
+   flex-wrap:nowrap;
+	align-content: space-around;
+}
+.contenedor-flexible-1>div{
+  background-color: #000000;
+  width: 300px;
+  margin: 50px;
+  text-align: center;
+}
+.contenedor-flexible-2{
+   display: flex;
+   width: 100%;
+   height: auto;
+   padding-left: 0%;
+   text-align: center;
+   flex-wrap:nowrap;
+	align-content: flex-start;
+}
+.contenedor-flexible-2>div{
+  background-color: #000000;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+.contenedor-flexible-3{ 
+   display: flex;
+   width: 200%;
+   height: auto;
+   padding-left: 5%;
+   text-align: center;
+   flex-wrap:wrap;
+   align-content: flex-start;
+}
+.contenedor-flexible-3>div{
+  background-color: #000000;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+#inicio{
+    width: 400px;
+    height: 600px;
+}
+#personajes{
+	 width: 200px;
+    height: 200px;
+}
+#mascotas{
+	 width: 200px;
+    height: 200px;
+}
+#retrato{
+    width: 200px;
+    height: 200px;
+}
+#producto2{
+    width: 200px;
+    height: 200px;
+}
+#paisaje{
+	width: 300px;
+    height: 200px;
+}
+#mascota{
+	width: 300px;
+    height: 200px;
+}
+#retrato-1{
+	width: 300px;
+    height: 200px;
+}
+#producto{
+	width: 300px;
+    height: 200px;
+}
+#peliculas{
+	width: 200px;
+    height: 280px;
+}
+#eventos{
+	width: 200px;
+    height: 280px;
+}
+#informativo{
+	width: 200px;
+    height: 280px;
+}
+#producto-2{
+	width: 200px;
+    height: 280px;
+}
+#paisaje0{
+	width: 250px;
+    height: 150px;
+}
+#paisaje1{
+	width: 250px;
+    height: 150px;
+}
+#paisaje2{
+	width: 250px;
+    height: 150px;
+}
+#paisaje3{
+	width: 250px;
+    height: 150px;
+}
+#paisaje4{
+	width: 250px;
+    height: 150px;
+}
+#paisaje5{
+	width: 250px;
+    height: 150px;
+}
+#paisaje6{
+	width: 250px;
+    height: 150px;
+}
+#paisaje7{
+	width: 250px;
+    height: 150px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
